@@ -1,17 +1,18 @@
 package rjmcplugin.rjmcplugin;
 
+import org.bukkit.Color;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class RjMcPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new Events(), this);
+        getServer().getConsoleSender().sendMessage(Color.BLUE + "Shimzyz's RJ plugin is enabled! :)");
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getServer().getConsoleSender().sendMessage(Color.BLUE + "Shimzyz's RJ plugin is disabled! :(");
     }
 }
