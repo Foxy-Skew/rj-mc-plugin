@@ -1,4 +1,4 @@
-name: Rj Mc Plugin
+name: RjMcPlugin
 version: '${version}'
 main: rjmcplugin.rjmcplugin.RjMcPlugin
 api-version: 1.19
