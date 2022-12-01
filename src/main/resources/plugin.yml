@@ -1,0 +1,6 @@
+name: Rj Mc Plugin
+version: '${version}'
+main: rjmcplugin.rjmcplugin.RjMcPlugin
+api-version: 1.19
+authors: [Shimzyz]
+description: a plugin for minecraft java servers
